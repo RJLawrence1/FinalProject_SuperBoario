@@ -97,11 +97,21 @@ public class GameController : MonoBehaviour
 
     public void Respawn()
     {
+        // Always let the PlayerRespawn2D move the player to its stored checkpoint.
+        // Do not move the GameController object itself using an uninitialized checkpointPosition.
         HealthSystem.ResetHealth();
 
-        transform.position = checkpointPosition;
-        HealthSystem.ResetHealth(); // Reset both characters to 0.5 health
-        Debug.Log("Respawning to: " + checkpointPosition);
+        if (respawn != null)
+        {
+            respawn.Respawn();
+            Debug.Log("GameController: delegated respawn to PlayerRespawn2D.");
+        }
+        else
+        {
+            // As a fallback, move whoever this GameController is attached to
+            transform.position = checkpointPosition;
+            Debug.LogWarning("GameController: Respawn fallback moved GameController to: " + checkpointPosition);
+        }
 
         if (rb != null)
         {

@@ -2,16 +2,21 @@ using UnityEngine;
 
 public class PlayerRespawn2D : MonoBehaviour
 {
-    private Vector3 checkpointPosition;
+    [SerializeField] private Vector3 checkpointPosition;
+    private bool hasCustomCheckpoint = false;
 
-    void Start()
+    void Awake()
     {
+        // Initialize to player's start position only once
         checkpointPosition = transform.position;
+        Debug.Log("PlayerRespawn2D initialized. Starting respawn pos: " + checkpointPosition);
     }
 
     public void SetCheckpoint(Vector3 newCheckpoint)
     {
         checkpointPosition = newCheckpoint;
+        hasCustomCheckpoint = true;
+        Debug.Log("PlayerRespawn2D.SetCheckpoint called. New checkpoint: " + checkpointPosition);
     }
 
     public void Respawn()
