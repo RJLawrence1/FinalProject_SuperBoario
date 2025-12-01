@@ -58,7 +58,6 @@ public class PlayerController : MonoBehaviour
 
     public bool canMove = true;
     private bool isClimbing = false;
-    private bool justJumped = false;
     private SimpleEnemy carriedEnemy;
     public Transform carryAnchor;
 
@@ -183,13 +182,6 @@ public class PlayerController : MonoBehaviour
             spriteRenderer.color = activeColor;
     }
 
-    public bool JustJumped()
-    {
-        bool result = justJumped;
-        justJumped = false;
-        return result;
-    }
-
     public void ForceJump()
     {
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
@@ -213,7 +205,6 @@ public class PlayerController : MonoBehaviour
 
         if (moveInput != 0)
             transform.localScale = new Vector3(originalScale.x * Mathf.Sign(moveInput), originalScale.y, originalScale.z);
-
         bool inputChangedDirection = Mathf.Sign(moveInput) != Mathf.Sign(previousVelocityX) && moveInput != 0;
         bool grounded = IsGrounded();
         bool wasAtFullSpeed = Mathf.Abs(previousVelocityX) >= moveSpeed * 0.9f;
@@ -329,7 +320,6 @@ public class PlayerController : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             SoundManager.Instance.PlayJump();
-            justJumped = true;
         }
     }
 
