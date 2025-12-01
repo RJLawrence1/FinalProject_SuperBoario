@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3224157727601937487}
   - component: {fileID: 7892420791507273214}
   - component: {fileID: 560135361100045735}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WaterParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4850,7 +4850,7 @@ GameObject:
   - component: {fileID: 3714049456687603744}
   - component: {fileID: 5046137862057324089}
   - component: {fileID: 567408036336971681}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Box
   m_TagString: Boxes
   m_Icon: {fileID: 0}
