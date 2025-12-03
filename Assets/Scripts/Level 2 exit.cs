@@ -1,14 +1,13 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MoveTheLevel : MonoBehaviour
+public class Level2exit : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene("Level12");
+            SceneManager.LoadScene("Level3");
         }
     }
 }
-

@@ -13667,8 +13667,28 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4723318062317599472, guid: 80b56067b0b8a964381e9765be650ffe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 179773912}
   m_SourcePrefab: {fileID: 100100000, guid: 80b56067b0b8a964381e9765be650ffe, type: 3}
+--- !u!1 &179773911 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4723318062317599472, guid: 80b56067b0b8a964381e9765be650ffe, type: 3}
+  m_PrefabInstance: {fileID: 179773910}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &179773912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179773911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f53032dfb6a17a4ab2be455b6473304, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoveTheLevel
 --- !u!1 &191898437
 GameObject:
   m_ObjectHideFlags: 0
