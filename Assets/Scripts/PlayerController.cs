@@ -44,6 +44,9 @@ public class PlayerController : MonoBehaviour
     public AudioClip skidClip;
     public ParticleSystem skidParticles;
 
+    [Header("Speed Sprite Display")]
+    [SerializeField] private SpeedDisplay speedDisplay;
+
     [Header("Visual Root")]
     public Transform visualRoot;
 
@@ -152,6 +155,10 @@ public class PlayerController : MonoBehaviour
                 }
             }
         }
+
+        if (speedDisplay != null)
+            speedDisplay.SetSpeedVisual(Mathf.Abs(rb.linearVelocity.x));
+
         wasGroundedLastFrame = isGroundedNow;
     }
 

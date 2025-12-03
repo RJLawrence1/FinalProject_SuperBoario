@@ -19728,6 +19728,7 @@ MonoBehaviour:
   maxSlopeTilt: 20
   skidClip: {fileID: 8300000, guid: b94dd18bc05ad9246b8a4260e24cadf9, type: 3}
   skidParticles: {fileID: 1946740474597159885}
+  speedDisplay: {fileID: 0}
   visualRoot: {fileID: 2154766335981970623}
   spriteRenderer: {fileID: 0}
   activeColor: {r: 1, g: 1, b: 1, a: 1}
@@ -19779,6 +19780,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c01e2afdbb5edff419e596cbcbf1119d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerRespawn2D
+  checkpointPosition: {x: 0, y: 0, z: 0}
 --- !u!114 &1689923325285324973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29941,7 +29943,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 2722013032118816584, guid: b45eb621dd5f49142b555a7a14fd154c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

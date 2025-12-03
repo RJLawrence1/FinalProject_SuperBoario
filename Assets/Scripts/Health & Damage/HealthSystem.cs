@@ -93,20 +93,30 @@ public class HealthSystem : MonoBehaviour
         invincibilityTimer = invincibilityDuration;
 
         lastHitPosition = sourcePosition;
-
         StartCoroutine(TemporarilyIgnoreCollisions());
 
+        // If already dead, ignore further damage
         if (isDead || personalHealth <= 0f) return;
 
         personalHealth = Mathf.Max(personalHealth - damage, 0f);
         UpdateHealthUI();
-        SoundManager.Instance?.PlayYellHurt();
 
-        if (personalHealth <= 0f)
+        // --- Audio gating ---
+        if (personalHealth > 0f)
         {
-            SoundManager.Instance?.PlayYellDeath();
-            Debug.Log($"{gameObject.name} has died.");
-            TriggerFullDeath();
+            // Only play hurt if still alive
+            SoundManager.Instance?.PlayYellHurt();
+        }
+        else
+        {
+            // Health has reached zero
+            if (!isDead)
+            {
+                isDead = true;
+                SoundManager.Instance?.PlayYellDeath();
+                Debug.Log($"{gameObject.name} has died.");
+                TriggerFullDeath();
+            }
         }
 
         CheckGlobalLowHealth();

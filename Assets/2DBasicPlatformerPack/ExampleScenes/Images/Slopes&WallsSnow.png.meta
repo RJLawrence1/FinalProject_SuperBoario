@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 2d09e52a092bfbe4898d6650f3eb7ea5
+guid: 14344de38e55c7b4d864e1e2302f63c5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4121483973486040387
-    second: Slopes&Walls_0
+      213: -1675597588521922145
+    second: Slopes&WallsSnow_0
   - first:
-      213: 7119836838866575686
-    second: Slopes&Walls_1
+      213: -6245941376982079673
+    second: Slopes&WallsSnow_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Slopes&Walls_0
+      name: Slopes&WallsSnow_0
       rect:
         serializedVersion: 2
         x: 0
@@ -127,7 +127,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 8, y: 8}
+        - {x: 8, y: 8}
+        - {x: -8, y: -8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
       physicsShape:
       - - {x: 8, y: 8}
         - {x: 8, y: 8}
@@ -136,14 +141,14 @@ TextureImporter:
         - {x: 8, y: -8}
       tessellationDetail: 0
       bones: []
-      spriteID: dba26e4a92c8dc6c0800000000000000
-      internalID: -4121483973486040387
+      spriteID: f9156a5fed41fb8e0800000000000000
+      internalID: -1675597588521922145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_1
+      name: Slopes&WallsSnow_1
       rect:
         serializedVersion: 2
         x: 16
@@ -158,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 641e167e1edbec260800000000000000
-      internalID: 7119836838866575686
+      spriteID: 747a119f865f159a0800000000000000
+      internalID: -6245941376982079673
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_2
+      name: Slopes&WallsSnow_2
       rect:
         serializedVersion: 2
         x: 32
@@ -176,7 +181,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 8, y: -8}
+        - {x: -8, y: 8}
+        - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
       physicsShape:
       - - {x: 8, y: -8}
         - {x: -8, y: 8}
@@ -185,14 +195,14 @@ TextureImporter:
         - {x: 8, y: -8}
       tessellationDetail: 0
       bones: []
-      spriteID: 8f081a7c3d08f4d42a67edfafd4f65ac
-      internalID: 1034943830
+      spriteID: 6754463e2ddbc974393d3d1c34d1db7c
+      internalID: -1239433952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_3
+      name: Slopes&WallsSnow_3
       rect:
         serializedVersion: 2
         x: 48
@@ -203,24 +213,26 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
-      physicsShape:
+      outline:
       - - {x: 8, y: 0}
-        - {x: 2, y: 3}
         - {x: -8, y: 8}
         - {x: -8, y: 8}
         - {x: -8, y: -8}
         - {x: 8, y: -8}
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 0}
       tessellationDetail: 0
       bones: []
-      spriteID: 93e017cfba9bdf147998c87f34dd8016
-      internalID: -1313382738
+      spriteID: edf1d09e229d33446a45b2095075d49a
+      internalID: 1394443791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_4
+      name: Slopes&WallsSnow_4
       rect:
         serializedVersion: 2
         x: 64
@@ -231,22 +243,28 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 8, y: -8}
+        - {x: -8, y: 0}
+        - {x: -8, y: 0}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
       physicsShape:
       - - {x: 8, y: -8}
+        - {x: -8, y: 0}
         - {x: -8, y: 0}
         - {x: -8, y: -8}
         - {x: 8, y: -8}
       tessellationDetail: 0
       bones: []
-      spriteID: 2c01f764c65c117489c89eaea90bd728
-      internalID: 1074096372
+      spriteID: a8fe5e326f954854cbb66faf082a96dd
+      internalID: 281553272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_5
+      name: Slopes&WallsSnow_5
       rect:
         serializedVersion: 2
         x: 112
@@ -261,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15d730acf2998af4f881e19c34fe24d5
-      internalID: 1152908802
+      spriteID: c72cd7355c1736c4cab2b5db33534a08
+      internalID: -237523530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_6
+      name: Slopes&WallsSnow_6
       rect:
         serializedVersion: 2
         x: 0
@@ -283,14 +301,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5bea025bbf016249bb4f7099100879b
-      internalID: -1484324059
+      spriteID: 7cc96ce807d3b4246964aa9047d508f9
+      internalID: 2101974097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_7
+      name: Slopes&WallsSnow_7
       rect:
         serializedVersion: 2
         x: 16
@@ -305,14 +323,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0486119ba597f4f4c99011987adc0535
-      internalID: 433787857
+      spriteID: d3cffd18e06590a47986169722238965
+      internalID: -674243666
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_8
+      name: Slopes&WallsSnow_8
       rect:
         serializedVersion: 2
         x: 32
@@ -327,14 +345,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b91260063cbb1c4f9fe530931942f48
-      internalID: -568130073
+      spriteID: a36a32af84116834aa817cb4ff5ab50f
+      internalID: -293775097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_9
+      name: Slopes&WallsSnow_9
       rect:
         serializedVersion: 2
         x: 48
@@ -349,14 +367,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34cda76323195ae48a6a7b0e783db95d
-      internalID: 12095394
+      spriteID: 591dd947da0fd6143a899e7e67fe4749
+      internalID: 2067510421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_10
+      name: Slopes&WallsSnow_10
       rect:
         serializedVersion: 2
         x: 64
@@ -371,14 +389,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8c57b7c5d8f658438f10e0ca551084d
-      internalID: 1677917703
+      spriteID: b068d416620e3ee4398076705a9e5bff
+      internalID: -1433709845
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_11
+      name: Slopes&WallsSnow_11
       rect:
         serializedVersion: 2
         x: 80
@@ -389,22 +407,28 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 8, y: 0}
+        - {x: -8, y: 8}
+        - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
       physicsShape:
       - - {x: 8, y: 0}
+        - {x: -8, y: 8}
         - {x: -8, y: 8}
         - {x: -8, y: -8}
         - {x: 8, y: -8}
       tessellationDetail: 0
       bones: []
-      spriteID: 9132a6d3853c10a40aed2d2839aaceee
-      internalID: -371371754
+      spriteID: a0ee9de3f03033f4ead9d5453133db8c
+      internalID: 1590552776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_12
+      name: Slopes&WallsSnow_12
       rect:
         serializedVersion: 2
         x: 96
@@ -415,7 +439,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 8, y: -8}
+        - {x: -8, y: 0}
+        - {x: -8, y: 0}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
       physicsShape:
       - - {x: 8, y: -8}
         - {x: -8, y: 0}
@@ -423,14 +452,14 @@ TextureImporter:
         - {x: 8, y: -8}
       tessellationDetail: 0
       bones: []
-      spriteID: a6fa15b917f172649abf99c1ee557527
-      internalID: -824018008
+      spriteID: a81db355b8bf0874594f47cced647440
+      internalID: -1930377794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_13
+      name: Slopes&WallsSnow_13
       rect:
         serializedVersion: 2
         x: 112
@@ -445,14 +474,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e4560aea36562f4cad297dfb421e5a6
-      internalID: -1803714202
+      spriteID: e8915b8b8db76954390a80de979f75cd
+      internalID: 794029112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_14
+      name: Slopes&WallsSnow_14
       rect:
         serializedVersion: 2
         x: 0
@@ -467,14 +496,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa9422e7544dc48499f3327cea747a8f
-      internalID: -90034651
+      spriteID: 68909fb0a9819dc4da96f2e48e2852a9
+      internalID: -1890875715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_15
+      name: Slopes&WallsSnow_15
       rect:
         serializedVersion: 2
         x: 16
@@ -489,14 +518,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b61e5537f4c8cf4982e6ae6472d8722
-      internalID: -1190721838
+      spriteID: be0fb37d0e93c9a4686d0f38f6341963
+      internalID: 1936257134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_16
+      name: Slopes&WallsSnow_16
       rect:
         serializedVersion: 2
         x: 32
@@ -511,14 +540,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61a2947c1611cb445aa717cc27e5b17a
-      internalID: 1092974124
+      spriteID: 5b9c19fae9d05e24e9145c29d2757689
+      internalID: 1231266292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_17
+      name: Slopes&WallsSnow_17
       rect:
         serializedVersion: 2
         x: 48
@@ -533,14 +562,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c49f12ff5fb014e43819a466b6e1b758
-      internalID: -1064774283
+      spriteID: e7e4a9eec7ff0764cb8bc6b534c94f0d
+      internalID: 1183234901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_18
+      name: Slopes&WallsSnow_18
       rect:
         serializedVersion: 2
         x: 64
@@ -555,14 +584,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a776ba52ce143c46b1ee1a89e367979
-      internalID: -684722348
+      spriteID: 12db693a63ac8df459b18b30412092dc
+      internalID: -458920746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_19
+      name: Slopes&WallsSnow_19
       rect:
         serializedVersion: 2
         x: 80
@@ -577,14 +606,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1172ca6616df5a641879d582cc63c83c
-      internalID: -735751579
+      spriteID: a5fa60aae6c5e2641b407b545d7a54b0
+      internalID: -272571892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_20
+      name: Slopes&WallsSnow_20
       rect:
         serializedVersion: 2
         x: 96
@@ -599,88 +628,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71c3ffa1072b7c64780bf260d952c2af
-      internalID: -1466149723
+      spriteID: 1ad310835f5f54740bb1f94148b36a75
+      internalID: 772642220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_21
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: 8, y: 8}
-        - {x: -7, y: 8}
-        - {x: -7, y: -8}
-        - {x: 8, y: -8}
-      tessellationDetail: 0
-      bones: []
-      spriteID: c666b5f0d3e755d41899455fe9aff965
-      internalID: -2066805438
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slopes&Walls_22
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a7f911bec80bcc42961e00fbd416de1
-      internalID: -1985042148
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slopes&Walls_23
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: 7, y: 8}
-        - {x: -8, y: 8}
-        - {x: -8, y: -8}
-        - {x: 7, y: -8}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 524301fa688ff1f43bae196ab919b312
-      internalID: 665389683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slopes&Walls_24
+      name: Slopes&WallsSnow_21
       rect:
         serializedVersion: 2
         x: 80
@@ -691,22 +646,28 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 8, y: 0}
+        - {x: 8, y: 0}
+        - {x: -8, y: -8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
       physicsShape:
       - - {x: 8, y: 0}
+        - {x: 8, y: 0}
         - {x: -8, y: -8}
         - {x: -8, y: -8}
         - {x: 8, y: -8}
       tessellationDetail: 0
       bones: []
-      spriteID: 527d14cd0b69c2c4398777ac7793e5fd
-      internalID: 277095233
+      spriteID: c14066c7874de1f438cd0b10a6aebcd4
+      internalID: -181571279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_25
+      name: Slopes&WallsSnow_22
       rect:
         serializedVersion: 2
         x: 96
@@ -717,7 +678,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 8, y: 8}
+        - {x: 8, y: 8}
+        - {x: -8, y: 0}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
       physicsShape:
       - - {x: 8, y: 8}
         - {x: 8, y: 8}
@@ -726,14 +692,14 @@ TextureImporter:
         - {x: 8, y: -8}
       tessellationDetail: 0
       bones: []
-      spriteID: fba3c67812c629b4eb98c98565b2e4ed
-      internalID: 251525394
+      spriteID: 2b378cd81f56ce14f9fb0b075d56a209
+      internalID: 1700645365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_26
+      name: Slopes&WallsSnow_23
       rect:
         serializedVersion: 2
         x: 48
@@ -744,22 +710,31 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 8, y: 0}
+        - {x: 8, y: 0}
+        - {x: -8, y: -8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
       physicsShape:
       - - {x: 8, y: 0}
         - {x: -8, y: -8}
         - {x: -8, y: -8}
         - {x: 8, y: -8}
+      - - {x: 8, y: 0}
+        - {x: 8, y: 0}
+        - {x: 8, y: 0}
+        - {x: 8, y: 0}
       tessellationDetail: 0
       bones: []
-      spriteID: 546d5bd25111dc94a95e44f46616d9ab
-      internalID: 1486937696
+      spriteID: ca4e75593a53e154b9aed7ba6a0abd96
+      internalID: 501818190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_27
+      name: Slopes&WallsSnow_24
       rect:
         serializedVersion: 2
         x: 64
@@ -770,7 +745,12 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
-      outline: []
+      outline:
+      - - {x: 8, y: 8}
+        - {x: 8, y: 8}
+        - {x: -8, y: 0}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
       physicsShape:
       - - {x: 8, y: 8}
         - {x: 8, y: 8}
@@ -779,14 +759,14 @@ TextureImporter:
         - {x: 8, y: -8}
       tessellationDetail: 0
       bones: []
-      spriteID: e22565675087c5e47b26b2b22b638c95
-      internalID: 1163632050
+      spriteID: 797e972a3c83a5c4bbe3f24cca778df8
+      internalID: -1300164613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_28
+      name: Slopes&WallsSnow_25
       rect:
         serializedVersion: 2
         x: 80
@@ -801,14 +781,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1cbb73791b8005438911e08cc39b196
-      internalID: 670984476
+      spriteID: 9c08923491b03ab4799dd602d1ee8290
+      internalID: -2063324238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_29
+      name: Slopes&WallsSnow_26
       rect:
         serializedVersion: 2
         x: 96
@@ -823,14 +803,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53daa83bbf3252f44b7bc704fcca3fb8
-      internalID: 155895729
+      spriteID: 93667d07aa671b748b4353a73a473161
+      internalID: 806835804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_30
+      name: Slopes&WallsSnow_27
       rect:
         serializedVersion: 2
         x: 48
@@ -845,14 +825,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d6153ae08ca35f4899427717d4c7f55
-      internalID: -1322444457
+      spriteID: 5015d41ae26660c4eb063132d3cd56fe
+      internalID: -1579633468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_31
+      name: Slopes&WallsSnow_28
       rect:
         serializedVersion: 2
         x: 64
@@ -867,14 +847,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fddd4c60eef8f74e8c0a1fba11284cc
-      internalID: -2104001545
+      spriteID: 69107c13d52462d4ebd6e545fed39a2e
+      internalID: -511284886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_32
+      name: Slopes&WallsSnow_29
       rect:
         serializedVersion: 2
         x: 80
@@ -889,14 +869,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9a8d3befadc15840b1a3ad22b38f3ac
-      internalID: 714752345
+      spriteID: b8af6f5aadaad4e42a27248f65f053a8
+      internalID: 73925889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slopes&Walls_33
+      name: Slopes&WallsSnow_30
       rect:
         serializedVersion: 2
         x: 96
@@ -911,8 +891,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ad31d0c79e110a42a41c30d77edc465
-      internalID: 1793781423
+      spriteID: e9a7451b35051904791cccfcd001a1c0
+      internalID: 1016561539
       vertices: []
       indices: 
       edges: []
@@ -921,7 +901,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 25864ab993f860b4692cd5b855278d5d
+    spriteID: f602d3b9dd7f6f3498214a3299559f73
     internalID: 0
     vertices: []
     indices: 
@@ -933,40 +913,37 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Slopes&Walls_0: -4121483973486040387
-      Slopes&Walls_1: 7119836838866575686
-      Slopes&Walls_10: 1677917703
-      Slopes&Walls_11: -371371754
-      Slopes&Walls_12: -824018008
-      Slopes&Walls_13: -1803714202
-      Slopes&Walls_14: -90034651
-      Slopes&Walls_15: -1190721838
-      Slopes&Walls_16: 1092974124
-      Slopes&Walls_17: -1064774283
-      Slopes&Walls_18: -684722348
-      Slopes&Walls_19: -735751579
-      Slopes&Walls_2: 1034943830
-      Slopes&Walls_20: -1466149723
-      Slopes&Walls_21: -2066805438
-      Slopes&Walls_22: -1985042148
-      Slopes&Walls_23: 665389683
-      Slopes&Walls_24: 277095233
-      Slopes&Walls_25: 251525394
-      Slopes&Walls_26: 1486937696
-      Slopes&Walls_27: 1163632050
-      Slopes&Walls_28: 670984476
-      Slopes&Walls_29: 155895729
-      Slopes&Walls_3: -1313382738
-      Slopes&Walls_30: -1322444457
-      Slopes&Walls_31: -2104001545
-      Slopes&Walls_32: 714752345
-      Slopes&Walls_33: 1793781423
-      Slopes&Walls_4: 1074096372
-      Slopes&Walls_5: 1152908802
-      Slopes&Walls_6: -1484324059
-      Slopes&Walls_7: 433787857
-      Slopes&Walls_8: -568130073
-      Slopes&Walls_9: 12095394
+      Slopes&WallsSnow_0: -1675597588521922145
+      Slopes&WallsSnow_1: -6245941376982079673
+      Slopes&WallsSnow_10: -1433709845
+      Slopes&WallsSnow_11: 1590552776
+      Slopes&WallsSnow_12: -1930377794
+      Slopes&WallsSnow_13: 794029112
+      Slopes&WallsSnow_14: -1890875715
+      Slopes&WallsSnow_15: 1936257134
+      Slopes&WallsSnow_16: 1231266292
+      Slopes&WallsSnow_17: 1183234901
+      Slopes&WallsSnow_18: -458920746
+      Slopes&WallsSnow_19: -272571892
+      Slopes&WallsSnow_2: -1239433952
+      Slopes&WallsSnow_20: 772642220
+      Slopes&WallsSnow_21: -181571279
+      Slopes&WallsSnow_22: 1700645365
+      Slopes&WallsSnow_23: 501818190
+      Slopes&WallsSnow_24: -1300164613
+      Slopes&WallsSnow_25: -2063324238
+      Slopes&WallsSnow_26: 806835804
+      Slopes&WallsSnow_27: -1579633468
+      Slopes&WallsSnow_28: -511284886
+      Slopes&WallsSnow_29: 73925889
+      Slopes&WallsSnow_3: 1394443791
+      Slopes&WallsSnow_30: 1016561539
+      Slopes&WallsSnow_4: 281553272
+      Slopes&WallsSnow_5: -237523530
+      Slopes&WallsSnow_6: 2101974097
+      Slopes&WallsSnow_7: -674243666
+      Slopes&WallsSnow_8: -293775097
+      Slopes&WallsSnow_9: 2067510421
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
