@@ -6,6 +6,8 @@ public class Collectible : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+
+        Debug.Log("Triggered with: " + collision.name);
         // Check if the object that touched us is tagged "Player"
         if (collision.CompareTag("Player"))
         {

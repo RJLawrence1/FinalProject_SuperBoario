@@ -15,8 +15,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Level12.unity
     guid: a9fcf2fad30f3bb448e02258f33a4a54
   - enabled: 1
-    path: Assets/Scenes/Level3.unity
-    guid: 8f9bd9a8c73494f4582850db48f8e66e
+    path: Assets/Scenes/AllTreasureEnding.unity
+    guid: 5790695a817a32e44b7bbb9b23e7a6cc
+  - enabled: 1
+    path: Assets/Scenes/BadEnding.unity
+    guid: ee24008f664a3d045b1182e846fdc832
+  - enabled: 1
+    path: Assets/Scenes/GoodEnding.unity
+    guid: 8927cb1ed02d5634888752c7fbb0815d
+  - enabled: 1
+    path: Assets/Scenes/NoTresureEnding.unity
+    guid: a3b9c6e54c78a5b4c98637766e6aecfc
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
